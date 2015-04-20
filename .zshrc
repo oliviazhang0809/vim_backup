@@ -99,7 +99,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias sub="open -a 'Sublime Text 2'"
-alias idea="open -a 'IntelliJ IDEA 14 CE'"
+alias idea="open -a 'IntelliJ IDEA 14 CE.app''"
 alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias ..="cd .."
 alias ...='cd ../..'
@@ -126,3 +126,15 @@ export OS_TENANT_ID=d298aa857521465abf5333fe5f6d4e2e
 export OS_TENANT_NAME="tzhang1"
 export OS_USERNAME="tzhang1"
 export OS_PASSWORD=5542511Ab@
+
+
+alias ups="cd /Users/tzhang1/Documents/repos/user-platform-serv"
+alias swagger="cd /Users/tzhang1/Documents/repos/swagger-codegen"
+alias common="cd /Users/tzhang1/Documents/repos/stingray-common-internal"
+alias sub="open -a /Applications/Sublime\ Text\ 2.app"
+alias idea="open -a 'IntelliJ IDEA 14 CE.app'"
+
+
+export PATH_TO_UPS=/Users/tzhang1/Documents/repos/user-platform-serv
+export PATH_TO_UPS_CLIENT=/Users/tzhang1/Documents/repos/ups-java-client
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home
